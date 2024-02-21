@@ -15,4 +15,4 @@ jobs:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
        run: |
           pip install --upgrade pip
-          python test.py
+          python test_sum.py
