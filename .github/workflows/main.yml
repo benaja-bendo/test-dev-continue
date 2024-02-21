@@ -24,3 +24,6 @@ jobs:
     - name: Run tests
       run: |
         python main.py
+    - name: Export Python Code as Markdown
+      run: |
+        poetry run python -m markdownify main.py > code_export.md
